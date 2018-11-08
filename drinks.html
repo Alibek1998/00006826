@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+	<link rel="icon" href="images/titleicon.png" type="image/x-icon"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<title>Drinks</title>
+</head>
+<body>
+	<center>
+	<nav class="navbar">
+		<ul>
+			<li><a href="index.html">Home</a><div></div></li>
+			<li><a href="foods.html">Foods</a><div></div></li>
+			<li><a class="active">Drinks</a><div></div></li>
+			<li><a href="about.html">About us</a><div></div></li>
+			<li><a href="contact.html">Contact us</a><div></div></li>
+		</ul>
+	</nav>
+
+	<div class="basket_container">
+			
+		<a href="index.html" title="Home"><img class="main_logo" src="images/logo1.png"></a>
+		<div class="shopping_card"><img src="images/basket.png"><div id="cartcounter"></div></div>
+		<div id="btn">
+			<div></div><br>
+			<div></div>
+		</div>
+		
+	</div>
+	</center>
+
+		<div class="backlistofproducts">
+			<div class="listofproducts">
+				<center><h3>List of product</h3></center>
+				<div id="listofproducts"></div>
+				<center><button class="orderbtn">Order now $0</button></center>
+				<center><li><a id="deletebtn">Delete All</a></li></center>
+			</div>
+
+		</div>
+
+	<br><br>
+
+	<div id="menu_container">
+		
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="foods.html">Foods</a></li>
+			<li><a class="active2">Drinks</a></li>
+			<li><a href="about.html">About us</a></li>
+			<li><a href="contact.html">Contact us</a></li>
+		</ul>
+	</div>
+	<br><br>
+	<center>
+	<div class="info1">
+		<h1>JUMPIN' JACK SPLASH</h1>
+		<div class="image"><img src="images/image9.png" alt="JUMPIN' JACK SPLASH" title="JUMPIN' JACK SPLASH"></div>
+		<div class="content">When life gave Jack lemons, he said “I should turn these into a refreshing blend of lemonade with cherry, lime, and raspberry flavors available exclusively at Jack in the Box.” Then he called it his Jumpin’ Jack Splash drink. And yes, he definitely did say all that.</div>
+		<button id="addtocard" onclick="addtocard('JUMPIN\'S SPLASH', 0.89)">$0.59 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1">
+		<h1>ORIGINAL ICED COFFEE</h1>
+		<div class="image1"><img src="images/image10.png" alt="ORIGINAL ICED COFFEE" title="ORIGINAL ICED COFFEE"></div>
+		<div class="content1">The chilled Premium Roast Coffee with sweetened cream will leave you refreshed and your sweet tooth saying, “more, more, more!”</div>
+		<button id="addtocard" onclick="addtocard('ICED COFFEE', 0.99)">$0.99 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1">
+		<h1>FRESH BREWED ICE TEA</h1>
+		<div class="image"><img src="images/image11.png" alt="FRESH BREWED ICE TEA" title="FRESH BREWED ICE TEA"></div>
+		<div class="content">An authentic, high quality, fresh brewed iced tea that is perfectly balanced to deliver a smooth and refreshing taste.</div>
+		<button id="addtocard" onclick="addtocard('FRESH ICE TEA', 2.25)">$2.25 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1">
+		<h1>DIET DR PEPPER</h1>
+		<div class="image1"><img src="images/image12.png" alt="DIET DR PEPPER" title="DIET DR PEPPER"></div>
+		<div class="content1">Serving size designation refers to the total cup capacity with no ice.</div>
+		<button id="addtocard" onclick="addtocard('DIET DR PEPPER', 1.89)">$1.89 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1">
+		<h1>COCA-COLA</h1>
+		<div class="image"><img src="images/image13.png" alt="COCA-COLA" title="COCA-COLA"></div>
+		<div class="content">Serving size designation refers to the total cup capacity with no ice.</div>
+		<button id="addtocard" onclick="addtocard('COCA-COLA', 1.27)">$1.27 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1">
+		<h1>SPRITE</h1>
+		<div class="image1"><img src="images/image14.png" alt="SPRITE" title="SPRITE"></div>
+		<div class="content1">Serving size designation refers to the total cup capacity with no ice.</div>
+		<button id="addtocard" onclick="addtocard('SPRITE', 1.27)">$1.27 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1">
+		<h1>FANTA® ORANGE</h1>
+		<div class="image"><img src="images/image15.png" alt="FANTA® ORANGE" title="FANTA® ORANGE"></div>
+		<div class="content">An authentic, high quality, fresh brewed iced tea that is perfectly balanced to deliver a smooth and refreshing taste.</div>
+		<button id="addtocard" onclick="addtocard('FANTA ORANGE', 1.27)">$1.27 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1" style="border-bottom: none;">
+		<h1>Nestle</h1>
+		<div class="image1"><img src="images/image16.png" alt="Nestle" title="Nestle"></div>
+		<div class="content1">Nestle - purified water enhanced with minerals for a pure, fresh taste.</div>
+		<button id="addtocard" onclick="addtocard('NESTLE', 0.59)">$0.59 Place order</button>
+		<br><br>
+	</div>
+	</center>
+
+	<br><br>
+
+	<center>
+	<footer class="footer">
+		<div><a href="index.html"><img class="footer_logo" src="images/logo1.png"></a></div>
+		<br>
+		<div class="div1">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="foods.html">Foods</a></li>
+				<li><a class="active1">Drinks</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="contact.html">Contact us</a></li>
+			</ul>
+		</div>
+			
+		<div class="div2">
+			<center>
+			<ul>
+				<li><i class="fas fa-map-marker-alt"></i></li>
+				<li><h4>Istiqbol Str. 1A</h4></li>
+				<li><i class="far fa-envelope"></i></li>
+				<li><h4>00006826@wiut.com<br>shohnazarov0926@gmail.com</h4></li>
+				<li><i class="fas fa-phone"></i></li>
+				<li><h4>+99899 961-09-30</h4></li>
+			</ul>
+			</center>
+		</div>
+
+		<div class="div3">
+			<ul>
+				<li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+				<li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="https://telegram.org/" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+			</ul>
+		</div>
+		<h5>Copyright © 2018 All rights reserved<br><br> This web site was created to fulfill Web Technologies module’s requirements and does not represent actual company or service.</h5>
+	</footer>
+	</center>
+
+
+
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+
+</body>
+</html>

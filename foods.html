@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+	<link rel="icon" href="images/titleicon.png" type="image/x-icon"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<title>Foods</title>
+</head>
+<body>
+	<center>
+	<nav class="navbar">
+		<ul>
+			<li><a href="index.html">Home</a><div></div></li>
+			<li><a class="active">Foods</a><div></div></li>
+			<li><a href="drinks.html">Drinks</a><div></div></li>
+			<li><a href="about.html">About us</a><div></div></li>
+			<li><a href="contact.html">Contact us</a><div></div></li>
+		</ul>
+	</nav>
+
+	<div class="basket_container">
+			
+		<a href="index.html" title="Home"><img class="main_logo" src="images/logo1.png"></a>
+		<div class="shopping_card"><img src="images/basket.png"><div id="cartcounter"></div></div>
+		<div id="btn">
+			<div></div><br>
+			<div></div>
+		</div>
+		
+	</div>
+	</center>
+
+		<div class="backlistofproducts">
+			<div class="listofproducts">
+				<center><h3>List of product</h3></center>
+				<div id="listofproducts"></div>
+				<center><button class="orderbtn">Order now $0</button></center>
+				<center><li><a id="deletebtn">Delete All</a></li></center>
+			</div>
+
+		</div>
+
+	<br><br>
+
+	<div id="menu_container">
+		
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a class="active2">Foods</a></li>
+			<li><a href="drinks.html">Drinks</a></li>
+			<li><a href="about.html">About us</a></li>
+			<li><a href="contact.html">Contact us</a></li>
+		</ul>
+	</div>
+	<br><br>
+	<center>
+	<div class="info1">
+		<h1>JR. Bacon Cheeseburger</h1>
+		<div class="image"><img src="images/image1.jpg" alt="JR. Bacon Cheeseburger" title="JR. Bacon Cheeseburger"></div>
+		<div class="content">You ever call something “junior,” ironically? Well, if you haven’t, you’re about to. Because this Jr. Bacon Cheeseburger is a 100% beef patty topped with hickory smoked bacon, American cheese, real mayonnaise and ketchup. And now you have a “junior” appetite. See what we did there?</div>
+		<button id="addtocard" onclick="addtocard('JR. BACON CH.', 1.99)">$1.99 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1">
+		<h1>ALL-AMERICAN RIBEYE BURGER</h1>
+		<div class="image1"><img src="images/image2.png" alt="ALL-AMERICAN RIBEYE BURGER" title="ALL-AMERICAN RIBEYE BURGER"></div>
+		<div class="content1">America loves a sequel, which is why Jack brought back the All-American Ribeye Burger. Made with 100% premium ribeye beef, provolone cheese and fresh spring mix on a soft potato bun. You’re welcome, America. All 325.7 million of you.</div>
+		<button id="addtocard" onclick="addtocard('AMERICAN BURGER', 5.39)">$5.39 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1">
+		<h1>SPICY SRIRACHA BURGER</h1>
+		<div class="image"><img src="images/image3.png" alt="SPICY SRIRACHA BURGER" title="SPICY SRIRACHA BURGER"></div>
+		<div class="content">Bring the heat. Directly to your mouth. This inferno has it all—100% beef, hickory smoked bacon, sliced jalapeños, Swiss cheese, cool shredded lettuce, and fresh sliced tomatoes with spicy, creamy sriracha sauce, all on Jack’s signature toasty sourdough bread. Give your tastebuds a pep talk now, before it’s too late.</div>
+		<button id="addtocard" onclick="addtocard('SRIRACHA BURGER', 4.69)">$4.69 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1">
+		<h1>JACK'S SPICY CHICKEN</h1>
+		<div class="image1"><img src="images/image4.png" alt="JACK'S SPICY CHICKEN" title="JACK'S SPICY CHICKEN"></div>
+		<div class="content1">You know Jack’s Spicy Chicken® is delicious when Jack—the man himself—puts his name on it. Every bite of this tasty heat wave means spicy crispy all-white meat chicken with fresh sliced tomato, lettuce and real mayonnaise all on a buttery bakery bun. Yeah, your stomach owes Jack a thank you card.</div>
+		<button id="addtocard" onclick="addtocard('JACK\'S SPICY CH.', 4.59)">$4.59 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1">
+		<h1>CHICKEN CLUB SALAD</h1>
+		<div class="image"><img src="images/image5.png" alt="CHICKEN CLUB SALAD" title="CHICKEN CLUB SALAD"></div>
+		<div class="content">There’s no 400 lb. bouncer in this club. But there is a whole lot of grilled or crispy all-white meat chicken, shredded cheddar cheese, grape tomatoes, cucumbers, crumbled bacon pieces, and gourmet seasoned croutons—all on a blend of iceberg, romaine and spring lettuce.</div>
+		<button id="addtocard" onclick="addtocard('CHICKEN CLUB S.', 5.59)">$5.59 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1">
+		<h1>CHICKEN FAJITA PITA</h1>
+		<div class="image1"><img src="images/image6.png" alt="CHICKEN FAJITA PITA" title="CHICKEN FAJITA PITA"></div>
+		<div class="content1">Warm pita bread means a whole lot of grain—16 grams of whole grains. But wait, it gets better. Because this pita is filled with grilled chicken, shredded cheddar cheese, lettuce, grilled onions, and tomato. And, if that’s not enough, there’s also side of fire roasted salsa, too</div>
+		<button id="addtocard" onclick="addtocard('CHICKEN FAJITA.', 4.79)">$4.79 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1">
+		<h1>MONSTER TACO</h1>
+		<div class="image"><img src="images/image7.png" alt="MONSTER TACO" title="MONSTER TACO"></div>
+		<div class="content">This is the taco that eats other tacos when it’s craving tacos. Because this large-and-in-charge, crunchy taco is topped with American cheese, shredded lettuce and taco sauce. Uh, huh. You’ll want to sit down for this.</div>
+		<button id="addtocard" onclick="addtocard('MONSTER TACO', 1.29)">$1.29 Place order</button>
+		<br><br>
+	</div>
+
+	<div class="info1" style="border-bottom: none;">
+		<h1>MEAT LOVERS BREAKFAST BURRITO</h1>
+		<div class="image1"><img src="images/image8.png" alt="MEAT LOVERS BREAKFAST BURRITO" title="MEAT LOVERS BREAKFAST BURRITO"></div>
+		<div class="content1">This is the taco that eats other tacos when it’s craving tacos. Because this large-and-in-charge, crunchy taco is topped with American cheese, shredded lettuce and taco sauce. Uh, huh. You’ll want to sit down for this.</div>
+		<button id="addtocard" onclick="addtocard('BREAKFAST BURRITO', 4.69)">$4.69 Place order</button>
+		<br><br>
+	</div>
+	</center>
+	
+	<br><br>
+
+	<center>
+	<footer class="footer">
+		<div><a href="index.html"><img class="footer_logo" src="images/logo1.png"></a></div>
+		<br>
+		<div class="div1">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a class="active1">Foods</a></li>
+				<li><a href="drinks.html">Drinks</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="contact.html">Contact us</a></li>
+			</ul>
+		</div>
+			
+		<div class="div2">
+			<center>
+			<ul>
+				<li><i class="fas fa-map-marker-alt"></i></li>
+				<li><h4>Istiqbol Str. 1A</h4></li>
+				<li><i class="far fa-envelope"></i></li>
+				<li><h4>00006826@wiut.com<br>shohnazarov0926@gmail.com</h4></li>
+				<li><i class="fas fa-phone"></i></li>
+				<li><h4>+99899 961-09-30</h4></li>
+			</ul>
+			</center>
+		</div>
+
+		<div class="div3">
+			<ul>
+				<li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+				<li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="https://telegram.org/" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+			</ul>
+		</div>
+		<h5>Copyright © 2018 All rights reserved<br><br>This web site was created to fulfill Web Technologies module’s requirements and does not represent actual company or service.</h5>
+	</footer>
+	</center>
+
+
+
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+
+</body>
+</html>
